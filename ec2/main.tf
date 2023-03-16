@@ -3,7 +3,7 @@ resource "aws_instance" "web" {
 
 
 
-  instance_type     = "t2.large"
+  instance_type     = "t2.micro"
 
   availability_zone = "us-east-1"
   tags = {
